@@ -22,7 +22,7 @@ Using import:
 `import { cocApi } from "coc-api"`
 
 Using CommonJS:
-`const cocApi = require("coc-api")`
+`const { cocApi } = require("coc-api")`
 
 Initialize a instance of coc-api
 `const client = new cocApi({ token: "your-token" })`
