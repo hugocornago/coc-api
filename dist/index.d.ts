@@ -14,7 +14,7 @@ export declare class cocApi {
     leagueGroup(tag: string): Promise<leagueGroupCOC>;
     clanByTag(tag: string): Promise<clanCOC>;
     clanWarLeagueByTag(warTag: string): Promise<leagueGroupCOC>;
-    clanWarLog(tag: string): Promise<warLogCOC>;
+    clanWarLog(tag: string): Promise<itemsWarCOC>;
     clanMembers(tag: string): Promise<itemsClanCOC>;
     playerByTag(playerTag: any): Promise<playerCOC>;
     clanByName(clanName: string): Promise<listClansCOC>;
