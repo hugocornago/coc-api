@@ -176,8 +176,8 @@ export class cocApi {
    */
   clanWarLog(tag: string) {
     return this.client.get(`clans/${encodeURIComponent(tag)}/warlog`).then(
-      (res: any): warLogCOC => {
-        return res.body as warLogCOC;
+      (res: any): itemsWarCOC => {
+        return res.body as itemsWarCOC;
       }
     );
   }
